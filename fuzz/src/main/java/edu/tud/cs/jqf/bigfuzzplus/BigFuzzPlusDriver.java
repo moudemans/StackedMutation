@@ -23,7 +23,7 @@ public class BigFuzzPlusDriver {
     public static boolean PRINT_MUTATION_DETAILS = false;
     public static boolean PRINT_COVERAGE_DETAILS = false;
     public static boolean PRINT_INPUT_SELECTION_DETAILS = false;
-    public static boolean LOG_AND_PRINT_STATS = true;
+    public static boolean LOG_AND_PRINT_STATS = false;
     public static boolean PRINT_ERRORS = false;
     public static boolean PRINT_MUTATIONS = false;
     public static boolean PRINT_TEST_RESULTS = false;
@@ -119,7 +119,7 @@ public class BigFuzzPlusDriver {
         }
         log.printProgramArguments();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 1; i++) {
             int atIteration = i + 1;
             System.out.println("******** START OF PROGRAM ITERATION: " + atIteration + "**********************");
 
@@ -144,7 +144,7 @@ public class BigFuzzPlusDriver {
                 }
 
                 // Set the randomization seed to the program start time. Seed is passed to allow for custom seeds, independent of the program start time
-                guidance.setRandomizationSeed(iterationStartTime);
+                guidance.setRandomizationSeed(1622635420018L);
 
                 // Set the test class name in the guidance for the failure tracking
                 guidance.setTestClassName(testClassName);

@@ -32,7 +32,7 @@ public class StackedMutation implements BigFuzzMutation {
     // TODO: extend this section such that runs can be hardcoded.
 
     boolean useFixedMutationResult = false;
-    String[] fixedMutationResultList = {};
+    String[] fixedMutationResultList = {"90024,20","90024,20"};
     int fixedMutationResultPointer = 0;
     // ********************************************
 

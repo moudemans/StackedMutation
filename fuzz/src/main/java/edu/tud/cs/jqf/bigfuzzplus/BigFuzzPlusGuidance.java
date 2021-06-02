@@ -637,6 +637,12 @@ public class BigFuzzPlusGuidance implements Guidance {
                 }
             }
 
+            if(testProgramTraceElements.size() == 0) {
+                System.err.println("testProgramTraceElements size is 0, at trial: " + numTrials);
+                System.out.println("testProgramTraceElements size is 0, at trial: " + numTrials);
+                System.out.println("Input was: " + inputs.get(inputs.size()-1));
+            }
+
             //   Attempt to add this to the set of unique failures
             if(!uniqueFailuresWithTrial.containsKey(testProgramTraceElements)) {
                 uniqueFailures.add(testProgramTraceElements);
