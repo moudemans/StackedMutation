@@ -3,13 +3,13 @@ Welcome to this repository. This repository has been created for the Bachelor re
 
 This is a copy of the original repository, hosted on gitlab. This repo includes the data collected for the evaluation of the research project.
 These results can be found in the EVALUATION_RESULTS folder, containing the data log files for each benchmark and the 4 implementations tested.
-The benchmarks are:
-B2
-B3
-B4
-B5
-B6
-B7
+The benchmarks are found in the customarray directory and correspond to the following codes:
+- B2 : ExternalUDF
+- B3 : FindSalary
+- B4 : StudentGrades
+- B5 : MovieRating
+- B6 : SalaryAnalysis
+- B7 : Property
 
 and the implementations are:
 0 - BigFuzz
