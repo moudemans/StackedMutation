@@ -32,7 +32,7 @@ public class EvaluationDriver {
                 "movierating.csv",
                 "salaryanalysis.csv",
                 "property.csv" };
-        
+
         String[] maxStacks = {
                 "5",
                 "3",
