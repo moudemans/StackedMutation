@@ -19,6 +19,7 @@ and the implementations are:
 
 The files in the EVALUATION_RESULTS folder are labeled <Benchmark>-<Implementation>.txt
 If the data needs to be reproduced, the log files contain the seed of each iteration. These seeds can be used to produce the same mutation.
+The DataSet folder contains all initial input files
 
 
 
